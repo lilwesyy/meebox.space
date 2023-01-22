@@ -1,0 +1,87 @@
+body {
+  height: 100vh;
+  object-fit: cover;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(26,0,51,1) 0%, rgba(19,19,19,1) 69%) !important;
+}
+
+#main-section {
+  height: 90vh;
+  object-fit: cover;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.bs-icon-circle.bs-icon-primary.bs-icon {
+  background-color: #340068;
+  transition: 0.3s;
+}
+
+.bs-icon-circle.bs-icon-primary.bs-icon:hover {
+  color: #340068;
+  background-color: white;
+  transition: 0.3s;
+}
+
+#button-left {
+  border-radius: 20px 20px;
+  background-color: #340068;
+  height: 60px;
+  width: 160px;
+  margin-left: 2%;
+  border: none;
+  font-weight: bold;
+  transition: 0.3s;
+  font-size: 20px;
+  line-height: 2.0;
+}
+
+#button-left:hover {
+  color: #340068;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.text-uppercase {
+  text-transform: none!important;
+}
+
+#modal1 {
+  border-radius: 20px 20px;
+}
+
+#modal-1 {
+  /*margin-top: 10%;*/
+}
+
+#contact-us-card {
+  border: none;
+}
+
+.modal-header {
+  border: none;
+}
+
+#send-button {
+  border-radius: 20px 20px;
+  background-color: #340068;
+  height: 60px;
+  width: 160px;
+  margin-left: 2%;
+  border: none;
+  font-weight: bold;
+  transition: 0.3s;
+  font-size: 20px;
+  line-height: 2.0;
+}
+
+#send-button:hover {
+  color: white;
+  background-color: black;
+  transition: 0.3s;
+}
+
+html {
+}
+
