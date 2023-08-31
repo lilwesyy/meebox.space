@@ -1,0 +1,110 @@
+/* ===== Scrollbar CSS ===== */
+
+/* Firefox */
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #340068 #131313;
+}
+
+/* Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #131313;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #340068;
+  border-radius: 10px;
+  border: 3px none #131313;
+}
+
+#accordion-1 {
+  text-align: center !important;
+}
+
+.accordion-button {
+  text-align: center !important;
+}
+
+.faq-cards-body {
+  transition: 0.8s;
+  border-radius: 20px 20px !important;
+  background-color: #1c1c1c !important;
+}
+
+#cards-colum-left {
+  text-align: center;
+  width: 30px;
+}
+
+.faq-cards-body:hover {
+  transition: 0.8s;
+  -webkit-box-shadow: 1px 1px 50px 7px #000000;
+  box-shadow: 1px 1px 50px 7px #000000;
+}
+
+#row-faq {
+  margin-top: 2%;
+}
+
+#login {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+#password {
+  height: 60px;
+  width: 350px;
+  border-radius: 20px 20px;
+  border: none;
+  background-color: #0E0E0E;
+  padding-left: 20px;
+  font-weight: bold;
+  margin-top: 5%;
+  text-align: center;
+}
+
+#submit-login {
+  border-radius: 20px 20px;
+  background-color: #340068;
+  height: 47px;
+  width: 133px;
+  margin-left: 2%;
+  border: none;
+  font-weight: bold;
+  transition: 0.3s;
+  font-size: 20px;
+  margin-top: 2%;
+}
+
+#submit-login:hover {
+  border-radius: 20px 20px;
+  background-color: white;
+  height: 47px;
+  width: 133px;
+  margin-left: 2%;
+  border: none;
+  font-weight: bold;
+  transition: 0.3s;
+  font-size: 20px;
+  margin-top: 2%;
+  color: #340068;
+}
+
+#contenutoA {
+  display: none;
+}
+
+#contenutoB {
+  display: none;
+}
+
